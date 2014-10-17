@@ -1,7 +1,52 @@
-#header {
-	.img {
-		@if type=ip {
+html {
+	h1, p {
+		@if type == ip {
 			
+		}
+		@if type == ipp {
+			
+		}
+		@if type == tub {
+
+		}
+		@if type == pc {
+
 		}
 	}
 }
+
+header {
+	.img {
+		@if type == ip {
+			
+		}
+		@if type == ipp {
+			
+		}
+		@if type == tub {
+
+		}
+		@if type == pc {
+
+		}
+	}
+}
+
+footer {
+	p {
+		@if type == ip {
+			
+		}
+		@if type == ipp {
+			
+		}
+		@if type == tub {
+
+		}
+		@if type == pc {
+
+		}
+	}
+}
+
+

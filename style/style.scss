@@ -1,57 +1,25 @@
 /* Import file to css */
-@import "compass/css3"
+@import "compass/css3";
 @import "reset";
-@import "";
 
-/* */
+/* variable */
 
 $type: ip ipp tab pc; 
 $Smart: "only screen and (max-width: 640px)";
 $Tabllet: "only screen and (min-width: 641px) and (max-width: 840px)";
 $PC: "only screen and (min-width: 1100px;)";
 
-/* common */
-
-body {
-	max-width: 1280px;
-	background: rgba(200,205,255, 0.7);
-}
-
-#Wrapper {
-	width: 100%;
-	margin: 0 auto;
-}
-
-header {
-	h1 {
-
-	}
-
-	img {
-
-	}
-}
-
-footer {
-	h1 {
-
-	}
-	p {
-
-	}
-}
-
 /* device-width */
 
 @media #($Smart) {
 	$type: ip;
-	@import ;
+	@import device;
 }
 @media #($Tabllet) {
 	$type: tab;
-	@import ;
+	@import device;
 }
 @media #($PC) {
 	$type: pc;
-	@import ;
+	@import device;
 }
