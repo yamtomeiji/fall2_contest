@@ -1,38 +1,57 @@
+/* Smartphone device var */
+@mixin () {
+
+}
+/* Tablet device var */
+@mixin () {
+
+}
+/* Desktop device var */
+@mixin () {
+    
+}
+
 html {
 	h1, p {
 		@if type == ip {
-			
+			font-size: 1em;
 		}
 		@if type == ipp {
-			
+			font-size: 0.8em;
 		}
 		@if type == tub {
-
+			font-size: 0.6em;
 		}
 		@if type == pc {
-
+			font-size: 0.4em;
 		}
 	}
 }
 
 header {
+	width: 100%;
+	height: 300px;
+	margin: 0 auto;
 	.img {
 		@if type == ip {
-			
+			width: 50%;
 		}
 		@if type == ipp {
-			
+			width: 70%;
 		}
 		@if type == tub {
-
+			width: 90%;
 		}
 		@if type == pc {
-
+			width: 100%;
 		}
 	}
 }
 
 footer {
+	width: 100%;
+	height: 80px;
+	margin: 0 auto;
 	p {
 		@if type == ip {
 			
