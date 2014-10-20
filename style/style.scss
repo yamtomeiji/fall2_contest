@@ -1,6 +1,5 @@
 /* Import */
-/* @import "compass/css3"; */
-@import "reset";
+@import "compass/reset";
 @import "device";
 
 $type: ip ipp tab pc; 
@@ -8,17 +7,3 @@ $Smart: "only screen and (max-width: 640px)";
 $Tabllet: "only screen and (min-width: 641px) and (max-width: 840px)";
 $parsonal: "only screen and (min-width: 1100px)";
 
-/* device-width */
-
-@media #{$Smart} {
-	$type: ip;
-	
-}
-@media #{$Tabllet} {
-	$type: tab;
-	
-}
-@media #{$parsonal} {
-	$type: pc;
-	
-}

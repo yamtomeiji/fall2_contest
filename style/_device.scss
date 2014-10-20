@@ -1,6 +1,14 @@
 /* Smartphone device var */
-@mixin () {
+@mixin ($type ) {
+	@if type == ip {
 
+	}
+	@if type == tub {
+
+	}
+	@if type == pc {
+
+	}
 }
 /* Tablet device var */
 @mixin () {
@@ -12,7 +20,9 @@
 }
 
 html {
+
 	h1, p {
+
 		@if type == ip {
 			font-size: 1em;
 		}
@@ -32,6 +42,7 @@ header {
 	width: 100%;
 	height: 300px;
 	margin: 0 auto;
+	@include border-radius;
 	.img {
 		@if type == ip {
 			width: 50%;
