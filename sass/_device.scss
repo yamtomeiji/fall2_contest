@@ -1,0 +1,11 @@
+@@mixin device($type) {
+	@if (type == ip){
+
+	}
+	@if (type == tab) {
+
+	}
+	@if (type == pc) {
+		
+	}
+}

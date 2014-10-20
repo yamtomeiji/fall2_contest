@@ -1,0 +1,59 @@
+/*
+Error: File to import not found or unreadable: compass/reset.
+       Load paths:
+         
+        on line 1 of style.scss
+
+1: @import "compass/reset";
+2: @import "device";
+3: 
+4: $type:ip tab pc;
+5: $smart: "only screen and (max-width: 480px)";
+6: $tablet: "only screen and (max-width: 481px) and (min-width: 840px)";
+
+Backtrace:
+style.scss:1
+/Users/13_oowa/.rbenv/versions/1.9.3-p547/lib/ruby/gems/1.9.1/gems/sass-3.4.6/lib/sass/tree/import_node.rb:66:in `rescue in import'
+/Users/13_oowa/.rbenv/versions/1.9.3-p547/lib/ruby/gems/1.9.1/gems/sass-3.4.6/lib/sass/tree/import_node.rb:45:in `import'
+/Users/13_oowa/.rbenv/versions/1.9.3-p547/lib/ruby/gems/1.9.1/gems/sass-3.4.6/lib/sass/tree/import_node.rb:28:in `imported_file'
+/Users/13_oowa/.rbenv/versions/1.9.3-p547/lib/ruby/gems/1.9.1/gems/sass-3.4.6/lib/sass/tree/import_node.rb:37:in `css_import?'
+/Users/13_oowa/.rbenv/versions/1.9.3-p547/lib/ruby/gems/1.9.1/gems/sass-3.4.6/lib/sass/tree/visitors/perform.rb:301:in `visit_import'
+/Users/13_oowa/.rbenv/versions/1.9.3-p547/lib/ruby/gems/1.9.1/gems/sass-3.4.6/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/13_oowa/.rbenv/versions/1.9.3-p547/lib/ruby/gems/1.9.1/gems/sass-3.4.6/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Users/13_oowa/.rbenv/versions/1.9.3-p547/lib/ruby/gems/1.9.1/gems/sass-3.4.6/lib/sass/stack.rb:79:in `block in with_base'
+/Users/13_oowa/.rbenv/versions/1.9.3-p547/lib/ruby/gems/1.9.1/gems/sass-3.4.6/lib/sass/stack.rb:115:in `with_frame'
+/Users/13_oowa/.rbenv/versions/1.9.3-p547/lib/ruby/gems/1.9.1/gems/sass-3.4.6/lib/sass/stack.rb:79:in `with_base'
+/Users/13_oowa/.rbenv/versions/1.9.3-p547/lib/ruby/gems/1.9.1/gems/sass-3.4.6/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Users/13_oowa/.rbenv/versions/1.9.3-p547/lib/ruby/gems/1.9.1/gems/sass-3.4.6/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Users/13_oowa/.rbenv/versions/1.9.3-p547/lib/ruby/gems/1.9.1/gems/sass-3.4.6/lib/sass/tree/visitors/base.rb:52:in `map'
+/Users/13_oowa/.rbenv/versions/1.9.3-p547/lib/ruby/gems/1.9.1/gems/sass-3.4.6/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Users/13_oowa/.rbenv/versions/1.9.3-p547/lib/ruby/gems/1.9.1/gems/sass-3.4.6/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+/Users/13_oowa/.rbenv/versions/1.9.3-p547/lib/ruby/gems/1.9.1/gems/sass-3.4.6/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Users/13_oowa/.rbenv/versions/1.9.3-p547/lib/ruby/gems/1.9.1/gems/sass-3.4.6/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+/Users/13_oowa/.rbenv/versions/1.9.3-p547/lib/ruby/gems/1.9.1/gems/sass-3.4.6/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Users/13_oowa/.rbenv/versions/1.9.3-p547/lib/ruby/gems/1.9.1/gems/sass-3.4.6/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+/Users/13_oowa/.rbenv/versions/1.9.3-p547/lib/ruby/gems/1.9.1/gems/sass-3.4.6/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/13_oowa/.rbenv/versions/1.9.3-p547/lib/ruby/gems/1.9.1/gems/sass-3.4.6/lib/sass/tree/visitors/perform.rb:157:in `visit'
+/Users/13_oowa/.rbenv/versions/1.9.3-p547/lib/ruby/gems/1.9.1/gems/sass-3.4.6/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/Users/13_oowa/.rbenv/versions/1.9.3-p547/lib/ruby/gems/1.9.1/gems/sass-3.4.6/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Users/13_oowa/.rbenv/versions/1.9.3-p547/lib/ruby/gems/1.9.1/gems/sass-3.4.6/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/Users/13_oowa/.rbenv/versions/1.9.3-p547/lib/ruby/gems/1.9.1/gems/sass-3.4.6/lib/sass/engine.rb:368:in `_render_with_sourcemap'
+/Users/13_oowa/.rbenv/versions/1.9.3-p547/lib/ruby/gems/1.9.1/gems/sass-3.4.6/lib/sass/engine.rb:285:in `render_with_sourcemap'
+/Users/13_oowa/.rbenv/versions/1.9.3-p547/lib/ruby/gems/1.9.1/gems/sass-3.4.6/lib/sass/plugin/compiler.rb:489:in `update_stylesheet'
+/Users/13_oowa/.rbenv/versions/1.9.3-p547/lib/ruby/gems/1.9.1/gems/sass-3.4.6/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Users/13_oowa/.rbenv/versions/1.9.3-p547/lib/ruby/gems/1.9.1/gems/sass-3.4.6/lib/sass/plugin/compiler.rb:209:in `each'
+/Users/13_oowa/.rbenv/versions/1.9.3-p547/lib/ruby/gems/1.9.1/gems/sass-3.4.6/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Users/13_oowa/.rbenv/versions/1.9.3-p547/lib/ruby/gems/1.9.1/gems/sass-3.4.6/lib/sass/plugin/compiler.rb:293:in `watch'
+/Users/13_oowa/.rbenv/versions/1.9.3-p547/lib/ruby/gems/1.9.1/gems/sass-3.4.6/lib/sass/plugin.rb:108:in `method_missing'
+/Users/13_oowa/.rbenv/versions/1.9.3-p547/lib/ruby/gems/1.9.1/gems/sass-3.4.6/lib/sass/exec/sass_scss.rb:370:in `watch_or_update'
+/Users/13_oowa/.rbenv/versions/1.9.3-p547/lib/ruby/gems/1.9.1/gems/sass-3.4.6/lib/sass/exec/sass_scss.rb:50:in `process_result'
+/Users/13_oowa/.rbenv/versions/1.9.3-p547/lib/ruby/gems/1.9.1/gems/sass-3.4.6/lib/sass/exec/base.rb:52:in `parse'
+/Users/13_oowa/.rbenv/versions/1.9.3-p547/lib/ruby/gems/1.9.1/gems/sass-3.4.6/lib/sass/exec/base.rb:19:in `parse!'
+/Users/13_oowa/.rbenv/versions/1.9.3-p547/lib/ruby/gems/1.9.1/gems/sass-3.4.6/bin/sass:13:in `<top (required)>'
+/Users/13_oowa/.rbenv/versions/1.9.3-p547/bin//sass:23:in `load'
+/Users/13_oowa/.rbenv/versions/1.9.3-p547/bin//sass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: File to import not found or unreadable: compass/reset.\A        Load paths:\A          \A         on line 1 of style.scss\A \A 1: @import \"compass/reset\";\A 2: @import \"device\";\A 3: \A 4: $type:ip tab pc;\A 5: $smart: \"only screen and (max-width: 480px)\";\A 6: $tablet: \"only screen and (max-width: 481px) and (min-width: 840px)\";"; }

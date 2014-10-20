@@ -1,0 +1,7 @@
+@import "compass/reset";
+@import "device";
+
+$type:ip tab pc;
+$smart: "only screen and (max-width: 480px)";
+$tablet: "only screen and (max-width: 481px) and (min-width: 840px)";
+$desktop: "only screen and (min-width: 1080px)"; 
