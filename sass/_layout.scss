@@ -1,0 +1,17 @@
+$type:ip tab pc;
+$smart: "only screen and (max-width: 480px)";
+$tablet: "only screen and (max-width: 481px) and (min-width: 840px)";
+$desktop: "only screen and (min-width: 1080px)"; 
+
+@media #{$smart}{
+	$type:ip;
+	@import "device";
+}
+@media #{$tablet}{
+	$type:tab;
+	@import "device";
+}
+@media #{$desktop}{
+	$type:pc;
+	@import "device";
+}
