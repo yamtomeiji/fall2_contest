@@ -1,31 +1,40 @@
 @mixin device($type) {
 	@if $type == ip {
 		h1 {
-			font-size: 2em;
+			font-size: 1.4em;
 		}
 		p {
-			font-size: 1.5em;
+			font-size: 1.3em;
+		}
+		img {
+			width: 50%;
 		}
 		background: #ff3333;
 
 	}
 	@if $type == tab {
 		h1 {
-			font-size: 1.5em;
+			font-size: 1.4em;
 		}
 		p {
-			font-size: 1em;
+			font-size: 1.3em;
+		}
+		img {
+			width: 75%;
 		}
 		background: #33ff33;
 	}
 	@if $type == pc {
 		h1 {
-			font-size: 1em;
+			font-size: 1.4em;
 		}
 		p {
-			font-size: 0.5em;
+			font-size: 1.3em;
 		}
-		background: #33ff33;
+		img {
+			width: 100%;
+		}
+		background: #3333ff;
 	}
 }
 
@@ -41,21 +50,28 @@
 	}
 }
 
+/* content */
+
 header {
 	width: 100%;
 	height: 200px;
 	margin: 0 auto;
 	@include device($type);
+	@include layout($type);
+
 }
-main {
+
+#main {
 	width: 100%;
 	margin: 0 auto;
 	@include device($type);
 	@include layout($type);
+
 }
 footer {
 	width: 100%;
 	height: 50px;
 	margin: 0 auto;
 	@include device($type);
+	
 }
