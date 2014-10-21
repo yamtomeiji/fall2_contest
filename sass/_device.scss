@@ -42,12 +42,20 @@
 }
 
 header {
+	width: 100%;
+	height: 200px;
+	margin: 0 auto;
 	@include device($type);
 }
 main {
+	width: 100%;
+	margin: 0 auto;
 	@include device($type);
 	@include layout($type);
 }
 footer {
+	width: 100%;
+	height: 50px;
+	margin: 0 auto;
 	@include device($type);
 }
