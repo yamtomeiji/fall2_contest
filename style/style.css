@@ -89,7 +89,7 @@ input, select {
   html {
     max-width: 1200px;
     margin: 0 auto;
-    background: #7e7e7e; }
+    background: #f1f1dd; }
     html h1 {
       font-family: Verdana, "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif; }
     html p {
@@ -117,7 +117,7 @@ input, select {
       width: 100%; }
 
   #main {
-    width: 98%;
+    width: 100%;
     margin: 0 auto;
     background: #ff3333; }
     #main h1 {
@@ -143,6 +143,11 @@ input, select {
     #main .content:active #acsess {
       visibility: visible;
       background: yellow; }
+    #main #menu {
+      width: 100%; }
+      #main #menu img {
+        width: 30%;
+        margin: 0 auto; }
     #main .main_content {
       width: 100%;
       margin: 0 auto;
@@ -161,6 +166,12 @@ input, select {
     footer p {
       font-size: 1em; }
 
+  .left {
+    float: left; }
+
+  .right {
+    float: right; }
+
   .clear {
     clear: both; } }
 @media only screen and (min-width: 481px) and (max-width: 1169px) {
@@ -168,7 +179,7 @@ input, select {
   html {
     max-width: 1200px;
     margin: 0 auto;
-    background: #7e7e7e; }
+    background: #f1f1dd; }
     html h1 {
       font-family: Verdana, "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif; }
     html p {
@@ -181,7 +192,7 @@ input, select {
   header {
     width: 100%;
     margin: 0 auto;
-    background: #33ff33; }
+    background: #ffea33; }
     header h1 {
       font-size: 3.5em; }
     header h2 {
@@ -196,9 +207,9 @@ input, select {
       width: 100%; }
 
   #main {
-    width: 98%;
+    width: 100%;
     margin: 0 auto;
-    background: #33ff33; }
+    background: #ffea33; }
     #main h1 {
       font-size: 3.5em; }
     #main h2 {
@@ -218,6 +229,11 @@ input, select {
     #main .content:active #acsess {
       visibility: visible;
       background: yellow; }
+    #main #menu {
+      width: 100%; }
+      #main #menu img {
+        width: 30%;
+        margin: 0 auto; }
     #main .main_content {
       width: 100%;
       margin: 0 auto;
@@ -228,13 +244,19 @@ input, select {
     height: 50px;
     margin: 0 auto;
     text-align: right;
-    background: #33ff33; }
+    background: #ffea33; }
     footer h1 {
       font-size: 3.5em; }
     footer h2 {
       font-size: 1.4em; }
     footer p {
       font-size: 1.3em; }
+
+  .left {
+    float: left; }
+
+  .right {
+    float: right; }
 
   .clear {
     clear: both; } }
@@ -243,7 +265,7 @@ input, select {
   html {
     max-width: 1200px;
     margin: 0 auto;
-    background: #7e7e7e; }
+    background: #f1f1dd; }
     html h1 {
       font-family: Verdana, "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif; }
     html p {
@@ -256,7 +278,7 @@ input, select {
   header {
     width: 100%;
     margin: 0 auto;
-    background: #eeea22; }
+    background: #f0e422; }
     header h1 {
       font-size: 4em; }
     header h2 {
@@ -271,9 +293,9 @@ input, select {
       width: 100%; }
 
   #main {
-    width: 98%;
+    width: 100%;
     margin: 0 auto;
-    background: #eeea22; }
+    background: #f0e422; }
     #main h1 {
       font-size: 4em; }
     #main h2 {
@@ -294,6 +316,11 @@ input, select {
     #main .content:active #acsess {
       visibility: visible;
       background: yellow; }
+    #main #menu {
+      width: 100%; }
+      #main #menu img {
+        width: 30%;
+        margin: 0 auto; }
     #main .main_content {
       width: 100%;
       margin: 0 auto;
@@ -304,13 +331,19 @@ input, select {
     height: 50px;
     margin: 0 auto;
     text-align: right;
-    background: #eeea22; }
+    background: #f0e422; }
     footer h1 {
       font-size: 4em; }
     footer h2 {
       font-size: 1.4em; }
     footer p {
       font-size: 1.3em; }
+
+  .left {
+    float: left; }
+
+  .right {
+    float: right; }
 
   .clear {
     clear: both; } }

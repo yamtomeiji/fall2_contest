@@ -22,7 +22,7 @@
 		p {
 			font-size: 1.3em;
 		}
-		background: #33ff33;
+		background: #ffea33;
 	}
 	@if $type == pc {
 		h1 {
@@ -34,7 +34,7 @@
 		p {
 			font-size: 1.3em;
 		}
-		background: #eeea22;
+		background: #f0e422;
 	}
 }
 
@@ -43,7 +43,7 @@
 html {
 	max-width: 1200px;
 	margin: 0 auto;
-	background: #7e7e7e;
+	background: #f1f1dd;
 
 	h1 {
 		font-family: Verdana, "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
@@ -73,7 +73,7 @@ header {
 }
 
 #main {
-	width: 98%;
+	width: 100%;
 	margin: 0 auto;
 	@include device($type);
 
@@ -133,6 +133,15 @@ header {
 		}
 	}
 
+	#menu {
+		width: 100%;
+
+		img {
+			width: 30%;
+			margin: 0 auto;
+		}
+	}
+
 	.main_content {
 		width: 100%;
 		margin: 0 auto;
@@ -158,7 +167,13 @@ footer {
 
 }
 
+.left {
+	float: left;
+}
 
+.right {
+	float: right;
+}
 
 .clear {
 	clear:both;
