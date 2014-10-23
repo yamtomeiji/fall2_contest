@@ -86,10 +86,14 @@ input, select {
 
 @media only screen and (max-width: 480px) {
   /* content */
-  body h1 {
+  html h1 {
     font-family: Verdana, "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif; }
-  body p {
+  html p {
     font-family: "Times New Roman", "游明朝", YuMincho, "Hiragino Mincho ProN", Meiryo, serif; }
+
+  #wrap {
+    width: 100%;
+    margin: 0 auto; }
 
   header {
     width: 100%;
@@ -97,54 +101,73 @@ input, select {
     margin: 0 auto;
     background: #ff3333; }
     header h1 {
-      font-size: 1.5em; }
-    header p {
+      font-size: 2.5em; }
+    header h2 {
       font-size: 1.4em; }
-    header img {
-      width: 50%; }
-    header .tri {
-      height: 0px;
-      width: 0px;
-      border-top: #fff 20px solid;
-      border-left: #fff 30px solid;
-      border-right: 40px solid transparent;
-      border-bottom: 20px solid transparent; }
+    header p {
+      font-size: 1em; }
+    header p, header h1 {
+      padding-top: 1%;
+      text-align: center; }
 
   #main {
     width: 100%;
     margin: 0 auto;
     background: #ff3333; }
     #main h1 {
-      font-size: 1.5em; }
-    #main p {
+      font-size: 2.5em; }
+    #main h2 {
       font-size: 1.4em; }
-    #main img {
-      width: 50%; }
+    #main p {
+      font-size: 1em; }
     #main .content {
-      width: 100%;
-      height: 300px;
+      width: 33.3%;
+      height: 420px;
+      margin: 0 auto;
+      background: black;
+      float: none;
+      width: 60%;
       margin: 0 auto; }
+      #main .content img {
+        width: 200px;
+        height: 200px;
+        margin: 0 auto;
+        border-radius: 100px;
+        -moz-border-radius: 100px;
+        -webkit-border-radius: 100px; }
+    #main .content:active #acsess {
+      visibility: visible;
+      background: yellow; }
+    #main .main_content {
+      width: 100%;
+      margin: 0 auto;
+      visibility: hidden; }
 
   footer {
     width: 100%;
     height: 50px;
     margin: 0 auto;
+    text-align: right;
     background: #ff3333; }
     footer h1 {
-      font-size: 1.5em; }
-    footer p {
+      font-size: 2.5em; }
+    footer h2 {
       font-size: 1.4em; }
-    footer img {
-      width: 50%; }
+    footer p {
+      font-size: 1em; }
 
   .clear {
     clear: both; } }
 @media only screen and (min-width: 481px) and (max-width: 1169px) {
   /* content */
-  body h1 {
+  html h1 {
     font-family: Verdana, "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif; }
-  body p {
+  html p {
     font-family: "Times New Roman", "游明朝", YuMincho, "Hiragino Mincho ProN", Meiryo, serif; }
+
+  #wrap {
+    width: 100%;
+    margin: 0 auto; }
 
   header {
     width: 100%;
@@ -152,54 +175,69 @@ input, select {
     margin: 0 auto;
     background: #33ff33; }
     header h1 {
+      font-size: 3.5em; }
+    header h2 {
       font-size: 1.4em; }
     header p {
       font-size: 1.3em; }
-    header img {
-      width: 75%; }
-    header .tri {
-      height: 0px;
-      width: 0px;
-      border-top: #fff 20px solid;
-      border-left: #fff 30px solid;
-      border-right: 40px solid transparent;
-      border-bottom: 20px solid transparent; }
+    header p, header h1 {
+      padding-top: 1%;
+      text-align: center; }
 
   #main {
     width: 100%;
     margin: 0 auto;
     background: #33ff33; }
     #main h1 {
+      font-size: 3.5em; }
+    #main h2 {
       font-size: 1.4em; }
     #main p {
       font-size: 1.3em; }
-    #main img {
-      width: 75%; }
     #main .content {
+      width: 33.3%;
+      height: 420px;
+      margin: 0 auto;
+      background: black;
+      float: left; }
+      #main .content img {
+        width: 100%;
+        border-radius: 15%;
+        -moz-border-radius: 15%;
+        -webkit-border-radius: 15%; }
+    #main .content:active #acsess {
+      visibility: visible;
+      background: yellow; }
+    #main .main_content {
       width: 100%;
-      height: 300px;
-      margin: 0 auto; }
+      margin: 0 auto;
+      visibility: hidden; }
 
   footer {
     width: 100%;
     height: 50px;
     margin: 0 auto;
+    text-align: right;
     background: #33ff33; }
     footer h1 {
+      font-size: 3.5em; }
+    footer h2 {
       font-size: 1.4em; }
     footer p {
       font-size: 1.3em; }
-    footer img {
-      width: 75%; }
 
   .clear {
     clear: both; } }
 @media only screen and (min-width: 1170px) {
   /* content */
-  body h1 {
+  html h1 {
     font-family: Verdana, "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif; }
-  body p {
+  html p {
     font-family: "Times New Roman", "游明朝", YuMincho, "Hiragino Mincho ProN", Meiryo, serif; }
+
+  #wrap {
+    width: 100%;
+    margin: 0 auto; }
 
   header {
     width: 100%;
@@ -207,45 +245,60 @@ input, select {
     margin: 0 auto;
     background: #3333ff; }
     header h1 {
+      font-size: 4em; }
+    header h2 {
       font-size: 1.4em; }
     header p {
       font-size: 1.3em; }
-    header img {
-      width: 100%; }
-    header .tri {
-      height: 0px;
-      width: 0px;
-      border-top: #fff 20px solid;
-      border-left: #fff 30px solid;
-      border-right: 40px solid transparent;
-      border-bottom: 20px solid transparent; }
+    header p, header h1 {
+      padding-top: 1%;
+      text-align: center; }
 
   #main {
     width: 100%;
     margin: 0 auto;
     background: #3333ff; }
     #main h1 {
+      font-size: 4em; }
+    #main h2 {
       font-size: 1.4em; }
     #main p {
       font-size: 1.3em; }
-    #main img {
-      width: 100%; }
     #main .content {
+      width: 33.3%;
+      height: 420px;
+      margin: 0 auto;
+      background: black;
+      float: left; }
+      #main .content img {
+        width: 100%; }
+      #main .content article {
+        visibility: hidden; }
+    #main .content:hover {
+      padding-bottom: 3%;
+      background: rgba(200, 200, 200, 0.4); }
+      #main .content:hover article {
+        visibility: visible; }
+    #main .content:active #acsess {
+      visibility: visible;
+      background: yellow; }
+    #main .main_content {
       width: 100%;
-      height: 300px;
-      margin: 0 auto; }
+      margin: 0 auto;
+      visibility: hidden; }
 
   footer {
     width: 100%;
     height: 50px;
     margin: 0 auto;
+    text-align: right;
     background: #3333ff; }
     footer h1 {
+      font-size: 4em; }
+    footer h2 {
       font-size: 1.4em; }
     footer p {
       font-size: 1.3em; }
-    footer img {
-      width: 100%; }
 
   .clear {
     clear: both; } }
