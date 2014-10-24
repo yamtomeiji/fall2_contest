@@ -102,9 +102,10 @@ input, select {
   header {
     width: 100%;
     margin: 0 auto;
-    background: #ff3333; }
+    background: #ffda66; }
     header h1 {
-      font-size: 2.5em; }
+      font-size: 2.5em;
+      text-align: center; }
     header h2 {
       font-size: 1.4em; }
     header p {
@@ -119,35 +120,66 @@ input, select {
   #main {
     width: 100%;
     margin: 0 auto;
-    background: #ff3333; }
+    background: #ffda66; }
     #main h1 {
-      font-size: 2.5em; }
+      font-size: 2.5em;
+      text-align: center; }
     #main h2 {
       font-size: 1.4em; }
     #main p {
       font-size: 1em; }
     #main .content {
-      width: 33.3%;
+      width: 50%;
       margin: 0 auto;
-      float: none;
-      width: 60%;
+      float: left;
+      width: 50%;
       margin: 0 auto; }
       #main .content img {
         display: block;
-        width: 200px;
-        height: 200px;
+        width: 100%;
+        height: 100%;
         margin: 0 auto;
-        border-radius: 100px;
-        -moz-border-radius: 100px;
-        -webkit-border-radius: 100px; }
+        border-radius: 50%;
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%; }
     #main .content:active #acsess {
       visibility: visible;
       background: yellow; }
     #main #menu {
-      width: 100%; }
+      width: 80%;
+      margin: 0 auto; }
       #main #menu img {
-        width: 30%;
+        width: 40%;
         margin: 0 auto; }
+    #main #works #up {
+      width: 80%;
+      margin: 0 auto; }
+      #main #works #up img {
+        border-bottom: 1px solid white; }
+      #main #works #up .line {
+        border-right: 1px solid white; }
+    #main #works #down {
+      width: 80%;
+      margin: 0 auto; }
+      #main #works #down img {
+        border-top: 2px solid white; }
+      #main #works #down .line {
+        border-right: 2px solid white; }
+    #main #access {
+      width: 80%;
+      margin: 0 auto; }
+      #main #access .head {
+        width: 40%;
+        margin: 0 auto; }
+        #main #access .head img {
+          float: none;
+          width: 100%;
+          height: 100%;
+          border-radius: 50%;
+          -moz-border-radius: 50%;
+          -webkit-border-radius: 50%; }
+      #main #access img {
+        width: 40%; }
     #main .main_content {
       width: 100%;
       margin: 0 auto;
@@ -155,16 +187,29 @@ input, select {
 
   footer {
     width: 100%;
-    height: 50px;
     margin: 0 auto;
-    text-align: right;
-    background: #ff3333; }
+    background: #ffda66; }
     footer h1 {
-      font-size: 2.5em; }
+      font-size: 2.5em;
+      text-align: center; }
     footer h2 {
       font-size: 1.4em; }
     footer p {
       font-size: 1em; }
+    footer .sns {
+      width: 50%;
+      margin: 0 auto; }
+      footer .sns img {
+        width: 30%;
+        height: 30%;
+        margin: 0 auto; }
+    footer .link {
+      width: 80%;
+      margin: 0 auto; }
+      footer .link img {
+        float: left; }
+    footer p {
+      text-align: right; }
 
   .left {
     float: left; }
@@ -194,7 +239,8 @@ input, select {
     margin: 0 auto;
     background: #ffea33; }
     header h1 {
-      font-size: 3.5em; }
+      font-size: 3.5em;
+      text-align: center; }
     header h2 {
       font-size: 1.4em; }
     header p {
@@ -211,29 +257,60 @@ input, select {
     margin: 0 auto;
     background: #ffea33; }
     #main h1 {
-      font-size: 3.5em; }
+      font-size: 3.5em;
+      text-align: center; }
     #main h2 {
       font-size: 1.4em; }
     #main p {
       font-size: 1.3em; }
     #main .content {
-      width: 33.3%;
+      width: 50%;
       margin: 0 auto;
       float: left; }
       #main .content img {
         display: block;
         width: 100%;
-        border-radius: 15%;
-        -moz-border-radius: 15%;
-        -webkit-border-radius: 15%; }
+        border-radius: 5%;
+        -moz-border-radius: 5%;
+        -webkit-border-radius: 5%; }
     #main .content:active #acsess {
       visibility: visible;
       background: yellow; }
     #main #menu {
-      width: 100%; }
+      width: 80%;
+      margin: 0 auto; }
       #main #menu img {
-        width: 30%;
+        width: 40%;
         margin: 0 auto; }
+    #main #works #up {
+      width: 80%;
+      margin: 0 auto; }
+      #main #works #up img {
+        border-bottom: 1px solid white; }
+      #main #works #up .line {
+        border-right: 1px solid white; }
+    #main #works #down {
+      width: 80%;
+      margin: 0 auto; }
+      #main #works #down img {
+        border-top: 2px solid white; }
+      #main #works #down .line {
+        border-right: 2px solid white; }
+    #main #access {
+      width: 80%;
+      margin: 0 auto; }
+      #main #access .head {
+        width: 40%;
+        margin: 0 auto; }
+        #main #access .head img {
+          float: none;
+          width: 100%;
+          height: 100%;
+          border-radius: 50%;
+          -moz-border-radius: 50%;
+          -webkit-border-radius: 50%; }
+      #main #access img {
+        width: 40%; }
     #main .main_content {
       width: 100%;
       margin: 0 auto;
@@ -241,16 +318,29 @@ input, select {
 
   footer {
     width: 100%;
-    height: 50px;
     margin: 0 auto;
-    text-align: right;
     background: #ffea33; }
     footer h1 {
-      font-size: 3.5em; }
+      font-size: 3.5em;
+      text-align: center; }
     footer h2 {
       font-size: 1.4em; }
     footer p {
       font-size: 1.3em; }
+    footer .sns {
+      width: 50%;
+      margin: 0 auto; }
+      footer .sns img {
+        width: 30%;
+        height: 30%;
+        margin: 0 auto; }
+    footer .link {
+      width: 80%;
+      margin: 0 auto; }
+      footer .link img {
+        float: left; }
+    footer p {
+      text-align: right; }
 
   .left {
     float: left; }
@@ -280,7 +370,8 @@ input, select {
     margin: 0 auto;
     background: #f0e422; }
     header h1 {
-      font-size: 4em; }
+      font-size: 4em;
+      text-align: center; }
     header h2 {
       font-size: 1.4em; }
     header p {
@@ -297,13 +388,14 @@ input, select {
     margin: 0 auto;
     background: #f0e422; }
     #main h1 {
-      font-size: 4em; }
+      font-size: 4em;
+      text-align: center; }
     #main h2 {
       font-size: 1.4em; }
     #main p {
       font-size: 1.3em; }
     #main .content {
-      width: 33.3%;
+      width: 50%;
       margin: 0 auto;
       float: left; }
       #main .content img {
@@ -317,10 +409,40 @@ input, select {
       visibility: visible;
       background: yellow; }
     #main #menu {
-      width: 100%; }
+      width: 80%;
+      margin: 0 auto; }
       #main #menu img {
-        width: 30%;
+        width: 40%;
         margin: 0 auto; }
+    #main #works #up {
+      width: 80%;
+      margin: 0 auto; }
+      #main #works #up img {
+        border-bottom: 1px solid white; }
+      #main #works #up .line {
+        border-right: 1px solid white; }
+    #main #works #down {
+      width: 80%;
+      margin: 0 auto; }
+      #main #works #down img {
+        border-top: 2px solid white; }
+      #main #works #down .line {
+        border-right: 2px solid white; }
+    #main #access {
+      width: 80%;
+      margin: 0 auto; }
+      #main #access .head {
+        width: 40%;
+        margin: 0 auto; }
+        #main #access .head img {
+          float: none;
+          width: 100%;
+          height: 100%;
+          border-radius: 50%;
+          -moz-border-radius: 50%;
+          -webkit-border-radius: 50%; }
+      #main #access img {
+        width: 40%; }
     #main .main_content {
       width: 100%;
       margin: 0 auto;
@@ -328,16 +450,29 @@ input, select {
 
   footer {
     width: 100%;
-    height: 50px;
     margin: 0 auto;
-    text-align: right;
     background: #f0e422; }
     footer h1 {
-      font-size: 4em; }
+      font-size: 4em;
+      text-align: center; }
     footer h2 {
       font-size: 1.4em; }
     footer p {
       font-size: 1.3em; }
+    footer .sns {
+      width: 50%;
+      margin: 0 auto; }
+      footer .sns img {
+        width: 30%;
+        height: 30%;
+        margin: 0 auto; }
+    footer .link {
+      width: 80%;
+      margin: 0 auto; }
+      footer .link img {
+        float: left; }
+    footer p {
+      text-align: right; }
 
   .left {
     float: left; }
