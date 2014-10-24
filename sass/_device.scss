@@ -212,23 +212,29 @@ header {
 
 footer {
 	width: 100%;
-	margin: 0 auto;
 	@include device($type);
 	
-	.sns {
-		width: 50%;
+	#sns {
+		width: 60%;
 		margin: 0 auto;
-		img {
-			width: 30%;
-			height: 30%;
+		.sns {
+			width: 100%;
 			margin: 0 auto;
 		}
+		img {
+			display: block;
+			float: left;
+			width: 10%;
+			margin:0 auto;
+		}
 	}
-	.link {
-		width: 80%;
+	#link {
+		display: block;
+		width: 30%;
 		margin: 0 auto;
 		img {
-			float: left;
+			width: 20%;
+			margin: 0 auto;
 		}
 	}
 	p {
