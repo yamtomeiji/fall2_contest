@@ -15,7 +15,7 @@
 	}
 	@if $type == tab {
 		h1 {
-			font-size: 3.5em;
+			font-size: 3em;
 			text-align: center;
 		}
 		h2 {
@@ -37,59 +37,6 @@
 		p {
 			font-size: 1.3em;
 		}
-		background: #efefef;
-	}
-}
-
-@mixin header ($type){
-	/* header */
-	header {
-		width: 100%;
-		margin: 0 auto;
-		@include device($type);
-	
-		p, h1 {
-			padding-top: 1%;
-			text-align: center;
-		}
-		img {
-			display: block;
-			width: 100%;
-		}
-	}
-}
-
-@mixin footer($type){
-	/* footer */
-	footer {
-		width: 100%;
-		@include device($type);
-	
-		#sns {
-			width: 60%;
-			margin: 0 auto;
-			.sns {
-				width: 100%;
-				margin: 0 auto;
-			}
-			img {
-				display: block;
-				float: left;
-				width: 10%;
-				margin:0 auto;
-			}
-		}
-		#link {
-			display: block;
-			width: 30%;
-			margin: 0 auto;
-			img {
-				width: 20%;
-				margin: 0 auto;
-			}
-		}
-		p {
-			text-align: right;
-		}
+		background: #fafafa;
 	}
 }
