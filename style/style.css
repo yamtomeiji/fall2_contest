@@ -84,6 +84,19 @@ hr {
 input, select {
   vertical-align: middle; }
 
+html {
+  max-width: 1200px;
+  margin: 0 auto;
+  background: #ffda66; }
+  html h1 {
+    font-family: Verdana, "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif; }
+  html p {
+    font-family: "Times New Roman", "游明朝", YuMincho, "Hiragino Mincho ProN", Meiryo, serif; }
+
+#wrap {
+  width: 100%;
+  margin: 0 auto; }
+
 /* header */
 header {
   width: 100%;
@@ -120,19 +133,6 @@ footer {
     text-align: right; }
 
 @media only screen and (max-width: 480px) {
-  html {
-    max-width: 1200px;
-    margin: 0 auto;
-    background: #ffda66; }
-    html h1 {
-      font-family: Verdana, "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif; }
-    html p {
-      font-family: "Times New Roman", "游明朝", YuMincho, "Hiragino Mincho ProN", Meiryo, serif; }
-
-  #wrap {
-    width: 100%;
-    margin: 0 auto; }
-
   /* main */
   #main {
     width: 100%;
@@ -213,19 +213,6 @@ footer {
   .clear {
     clear: both; } }
 @media only screen and (min-width: 481px) and (max-width: 1169px) {
-  html {
-    max-width: 1200px;
-    margin: 0 auto;
-    background: #ffda66; }
-    html h1 {
-      font-family: Verdana, "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif; }
-    html p {
-      font-family: "Times New Roman", "游明朝", YuMincho, "Hiragino Mincho ProN", Meiryo, serif; }
-
-  #wrap {
-    width: 100%;
-    margin: 0 auto; }
-
   /* main */
   #main {
     width: 100%;
@@ -302,19 +289,6 @@ footer {
   .clear {
     clear: both; } }
 @media only screen and (min-width: 1170px) {
-  html {
-    max-width: 1200px;
-    margin: 0 auto;
-    background: #ffda66; }
-    html h1 {
-      font-family: Verdana, "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif; }
-    html p {
-      font-family: "Times New Roman", "游明朝", YuMincho, "Hiragino Mincho ProN", Meiryo, serif; }
-
-  #wrap {
-    width: 100%;
-    margin: 0 auto; }
-
   /* main */
   #main {
     width: 100%;

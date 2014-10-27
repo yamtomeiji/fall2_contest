@@ -14,13 +14,13 @@ $desktop: "only screen and (min-width: 1170px)";
 
 @media #{$smart}{
 	$type:ip;
-	@import "main";
+	@import "works";
 }
 @media #{$tablet}{
 	$type:tab;
-	@import "main";
+	@import "works";
 }
 @media #{$desktop}{
 	$type:pc;
-	@import "main";
+	@import "works";
 }
