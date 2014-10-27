@@ -89,7 +89,7 @@ input, select {
   html {
     max-width: 1200px;
     margin: 0 auto;
-    background: #f1f1dd; }
+    background: #ffda66; }
     html h1 {
       font-family: Verdana, "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif; }
     html p {
@@ -229,7 +229,7 @@ input, select {
   html {
     max-width: 1200px;
     margin: 0 auto;
-    background: #f1f1dd; }
+    background: #ffda66; }
     html h1 {
       font-family: Verdana, "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif; }
     html p {
@@ -242,7 +242,7 @@ input, select {
   header {
     width: 100%;
     margin: 0 auto;
-    background: #ffea33; }
+    background: #efefef; }
     header h1 {
       font-size: 3.5em;
       text-align: center; }
@@ -260,7 +260,7 @@ input, select {
   #main {
     width: 100%;
     margin: 0 auto;
-    background: #ffea33; }
+    background: #efefef; }
     #main h1 {
       font-size: 3.5em;
       text-align: center; }
@@ -323,7 +323,7 @@ input, select {
 
   footer {
     width: 100%;
-    background: #ffea33; }
+    background: #efefef; }
     footer h1 {
       font-size: 3.5em;
       text-align: center; }
@@ -365,7 +365,7 @@ input, select {
   html {
     max-width: 1200px;
     margin: 0 auto;
-    background: #f1f1dd; }
+    background: #ffda66; }
     html h1 {
       font-family: Verdana, "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif; }
     html p {
@@ -378,7 +378,7 @@ input, select {
   header {
     width: 100%;
     margin: 0 auto;
-    background: #f0e422; }
+    background: #efefef; }
     header h1 {
       font-size: 4em;
       text-align: center; }
@@ -396,7 +396,7 @@ input, select {
   #main {
     width: 100%;
     margin: 0 auto;
-    background: #f0e422; }
+    background: #efefef; }
     #main h1 {
       font-size: 4em;
       text-align: center; }
@@ -460,7 +460,7 @@ input, select {
 
   footer {
     width: 100%;
-    background: #f0e422; }
+    background: #efefef; }
     footer h1 {
       font-size: 4em;
       text-align: center; }
