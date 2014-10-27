@@ -128,23 +128,6 @@ input, select {
       font-size: 1.4em; }
     #main p {
       font-size: 1em; }
-    #main .content {
-      width: 50%;
-      margin: 0 auto;
-      float: left;
-      width: 50%;
-      margin: 0 auto; }
-      #main .content img {
-        display: block;
-        width: 100%;
-        height: 100%;
-        margin: 0 auto;
-        border-radius: 50%;
-        -moz-border-radius: 50%;
-        -webkit-border-radius: 50%; }
-    #main .content:active #acsess {
-      visibility: visible;
-      background: yellow; }
     #main #menu {
       width: 80%;
       margin: 0 auto; }
@@ -184,6 +167,25 @@ input, select {
       width: 100%;
       margin: 0 auto;
       visibility: hidden; }
+
+  .content {
+    width: 50%;
+    margin: 0 auto;
+    float: left;
+    width: 50%;
+    margin: 0 auto; }
+    .content img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      margin: 0 auto;
+      border-radius: 50%;
+      -moz-border-radius: 50%;
+      -webkit-border-radius: 50%; }
+
+  .content:active #acsess {
+    visibility: visible;
+    background: yellow; }
 
   footer {
     width: 100%;
@@ -268,19 +270,6 @@ input, select {
       font-size: 1.4em; }
     #main p {
       font-size: 1.3em; }
-    #main .content {
-      width: 50%;
-      margin: 0 auto;
-      float: left; }
-      #main .content img {
-        display: block;
-        width: 100%;
-        border-radius: 5%;
-        -moz-border-radius: 5%;
-        -webkit-border-radius: 5%; }
-    #main .content:active #acsess {
-      visibility: visible;
-      background: yellow; }
     #main #menu {
       width: 80%;
       margin: 0 auto; }
@@ -320,6 +309,21 @@ input, select {
       width: 100%;
       margin: 0 auto;
       visibility: hidden; }
+
+  .content {
+    width: 50%;
+    margin: 0 auto;
+    float: left; }
+    .content img {
+      display: block;
+      width: 100%;
+      border-radius: 5%;
+      -moz-border-radius: 5%;
+      -webkit-border-radius: 5%; }
+
+  .content:active #acsess {
+    visibility: visible;
+    background: yellow; }
 
   footer {
     width: 100%;
@@ -404,20 +408,6 @@ input, select {
       font-size: 1.4em; }
     #main p {
       font-size: 1.3em; }
-    #main .content {
-      width: 50%;
-      margin: 0 auto;
-      float: left; }
-      #main .content img {
-        display: block;
-        width: 100%; }
-      #main .content article {
-        visibility: hidden; }
-    #main .content:hover article {
-      visibility: visible; }
-    #main .content:active #acsess {
-      visibility: visible;
-      background: yellow; }
     #main #menu {
       width: 80%;
       margin: 0 auto; }
@@ -457,6 +447,23 @@ input, select {
       width: 100%;
       margin: 0 auto;
       visibility: hidden; }
+
+  .content {
+    width: 50%;
+    margin: 0 auto;
+    float: left; }
+    .content img {
+      display: block;
+      width: 100%; }
+    .content article {
+      visibility: hidden; }
+
+  .content:hover article {
+    visibility: visible; }
+
+  .content:active #acsess {
+    visibility: visible;
+    background: yellow; }
 
   footer {
     width: 100%;

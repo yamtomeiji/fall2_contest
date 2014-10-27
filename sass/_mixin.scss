@@ -1,0 +1,42 @@
+@mixin device($type) {
+	@if $type == ip {
+		h1 {
+			font-size: 2.5em;
+			text-align: center;
+		}
+		h2 {
+			font-size: 1.4em;			
+		}
+		p {
+			font-size: 1em;
+		}
+		background: #ffda66;
+
+	}
+	@if $type == tab {
+		h1 {
+			font-size: 3.5em;
+			text-align: center;
+		}
+		h2 {
+			font-size: 1.4em;			
+		}
+		p {
+			font-size: 1.3em;
+		}
+		background: #efefef;
+	}
+	@if $type == pc {
+		h1 {
+			font-size: 4em;
+			text-align: center;
+		}
+		h2 {
+			font-size: 1.4em;			
+		}
+		p {
+			font-size: 1.3em;
+		}
+		background: #efefef;
+	}
+}

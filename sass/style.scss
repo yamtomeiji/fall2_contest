@@ -6,6 +6,7 @@ $tablet: "only screen and (min-width: 481px) and (max-width: 1169px)";
 $desktop: "only screen and (min-width: 1170px)"; 
 
 @import "reset";
+@import "mixin";
 
 @media #{$smart}{
 	$type:ip;
