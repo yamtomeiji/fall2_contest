@@ -84,8 +84,42 @@ hr {
 input, select {
   vertical-align: middle; }
 
+/* header */
+header {
+  width: 100%;
+  margin: 0 auto; }
+  header p, header h1 {
+    padding-top: 1%;
+    text-align: center; }
+  header img {
+    display: block;
+    width: 100%; }
+
+/* footer */
+footer {
+  width: 100%; }
+  footer #sns {
+    width: 60%;
+    margin: 0 auto; }
+    footer #sns .sns {
+      width: 100%;
+      margin: 0 auto; }
+    footer #sns img {
+      display: block;
+      float: left;
+      width: 10%;
+      margin: 0 auto; }
+  footer #link {
+    display: block;
+    width: 30%;
+    margin: 0 auto; }
+    footer #link img {
+      width: 20%;
+      margin: 0 auto; }
+  footer p {
+    text-align: right; }
+
 @media only screen and (max-width: 480px) {
-  /* content */
   html {
     max-width: 1200px;
     margin: 0 auto;
@@ -99,24 +133,7 @@ input, select {
     width: 100%;
     margin: 0 auto; }
 
-  header {
-    width: 100%;
-    margin: 0 auto;
-    background: #ffda66; }
-    header h1 {
-      font-size: 2.5em;
-      text-align: center; }
-    header h2 {
-      font-size: 1.4em; }
-    header p {
-      font-size: 1em; }
-    header p, header h1 {
-      padding-top: 1%;
-      text-align: center; }
-    header img {
-      display: block;
-      width: 100%; }
-
+  /* main */
   #main {
     width: 100%;
     margin: 0 auto;
@@ -187,37 +204,6 @@ input, select {
     visibility: visible;
     background: yellow; }
 
-  footer {
-    width: 100%;
-    background: #ffda66; }
-    footer h1 {
-      font-size: 2.5em;
-      text-align: center; }
-    footer h2 {
-      font-size: 1.4em; }
-    footer p {
-      font-size: 1em; }
-    footer #sns {
-      width: 60%;
-      margin: 0 auto; }
-      footer #sns .sns {
-        width: 100%;
-        margin: 0 auto; }
-      footer #sns img {
-        display: block;
-        float: left;
-        width: 10%;
-        margin: 0 auto; }
-    footer #link {
-      display: block;
-      width: 30%;
-      margin: 0 auto; }
-      footer #link img {
-        width: 20%;
-        margin: 0 auto; }
-    footer p {
-      text-align: right; }
-
   .left {
     float: left; }
 
@@ -227,7 +213,6 @@ input, select {
   .clear {
     clear: both; } }
 @media only screen and (min-width: 481px) and (max-width: 1169px) {
-  /* content */
   html {
     max-width: 1200px;
     margin: 0 auto;
@@ -241,24 +226,7 @@ input, select {
     width: 100%;
     margin: 0 auto; }
 
-  header {
-    width: 100%;
-    margin: 0 auto;
-    background: #efefef; }
-    header h1 {
-      font-size: 3.5em;
-      text-align: center; }
-    header h2 {
-      font-size: 1.4em; }
-    header p {
-      font-size: 1.3em; }
-    header p, header h1 {
-      padding-top: 1%;
-      text-align: center; }
-    header img {
-      display: block;
-      width: 100%; }
-
+  /* main */
   #main {
     width: 100%;
     margin: 0 auto;
@@ -325,37 +293,6 @@ input, select {
     visibility: visible;
     background: yellow; }
 
-  footer {
-    width: 100%;
-    background: #efefef; }
-    footer h1 {
-      font-size: 3.5em;
-      text-align: center; }
-    footer h2 {
-      font-size: 1.4em; }
-    footer p {
-      font-size: 1.3em; }
-    footer #sns {
-      width: 60%;
-      margin: 0 auto; }
-      footer #sns .sns {
-        width: 100%;
-        margin: 0 auto; }
-      footer #sns img {
-        display: block;
-        float: left;
-        width: 10%;
-        margin: 0 auto; }
-    footer #link {
-      display: block;
-      width: 30%;
-      margin: 0 auto; }
-      footer #link img {
-        width: 20%;
-        margin: 0 auto; }
-    footer p {
-      text-align: right; }
-
   .left {
     float: left; }
 
@@ -365,7 +302,6 @@ input, select {
   .clear {
     clear: both; } }
 @media only screen and (min-width: 1170px) {
-  /* content */
   html {
     max-width: 1200px;
     margin: 0 auto;
@@ -379,24 +315,7 @@ input, select {
     width: 100%;
     margin: 0 auto; }
 
-  header {
-    width: 100%;
-    margin: 0 auto;
-    background: #efefef; }
-    header h1 {
-      font-size: 4em;
-      text-align: center; }
-    header h2 {
-      font-size: 1.4em; }
-    header p {
-      font-size: 1.3em; }
-    header p, header h1 {
-      padding-top: 1%;
-      text-align: center; }
-    header img {
-      display: block;
-      width: 100%; }
-
+  /* main */
   #main {
     width: 100%;
     margin: 0 auto;
@@ -464,37 +383,6 @@ input, select {
   .content:active #acsess {
     visibility: visible;
     background: yellow; }
-
-  footer {
-    width: 100%;
-    background: #efefef; }
-    footer h1 {
-      font-size: 4em;
-      text-align: center; }
-    footer h2 {
-      font-size: 1.4em; }
-    footer p {
-      font-size: 1.3em; }
-    footer #sns {
-      width: 60%;
-      margin: 0 auto; }
-      footer #sns .sns {
-        width: 100%;
-        margin: 0 auto; }
-      footer #sns img {
-        display: block;
-        float: left;
-        width: 10%;
-        margin: 0 auto; }
-    footer #link {
-      display: block;
-      width: 30%;
-      margin: 0 auto; }
-      footer #link img {
-        width: 20%;
-        margin: 0 auto; }
-    footer p {
-      text-align: right; }
 
   .left {
     float: left; }

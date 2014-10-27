@@ -1,7 +1,3 @@
-
-
-/* content */
-
 html {
 	max-width: 1200px;
 	margin: 0 auto;
@@ -19,20 +15,8 @@ html {
 	margin: 0 auto;
 
 }
-header {
-	width: 100%;
-	margin: 0 auto;
-	@include device($type);
-	
-	p, h1 {
-		padding-top: 1%;
-		text-align: center;
-	}
-	img {
-		display: block;
-		width: 100%;
-	}
-}
+
+/* main */
 
 #main {
 	width: 100%;
@@ -118,7 +102,7 @@ header {
 .content {
 	width: 50%;
 	margin: 0 auto;
-	
+
 	@if $type == ip {
 		float: left;
 		width: 50%;
@@ -168,38 +152,6 @@ header {
 	#acsess {
 		visibility: visible;
 		background: yellow;
-	}
-}
-
-footer {
-	width: 100%;
-	@include device($type);
-	
-	#sns {
-		width: 60%;
-		margin: 0 auto;
-		.sns {
-			width: 100%;
-			margin: 0 auto;
-		}
-		img {
-			display: block;
-			float: left;
-			width: 10%;
-			margin:0 auto;
-		}
-	}
-	#link {
-		display: block;
-		width: 30%;
-		margin: 0 auto;
-		img {
-			width: 20%;
-			margin: 0 auto;
-		}
-	}
-	p {
-		text-align: right;
 	}
 }
 
