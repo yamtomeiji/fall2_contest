@@ -188,8 +188,8 @@ footer p {
     margin: 0 auto; }
     .content img {
       display: block;
-      width: 100%;
-      height: 100%;
+      width: 90%;
+      height: 90%;
       margin: 0 auto;
       border-radius: 50%;
       -moz-border-radius: 50%;
@@ -198,6 +198,12 @@ footer p {
   .content:active #acsess {
     visibility: visible;
     background: yellow; }
+
+  .about {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    border-bottom: 1px solid #2a2a2a; }
 
   .left {
     float: left; }
@@ -267,13 +273,23 @@ footer p {
     .content img {
       display: block;
       width: 100%;
-      border-radius: 5%;
-      -moz-border-radius: 5%;
-      -webkit-border-radius: 5%; }
+      height: 80%;
+      margin: 0 auto;
+      border-radius: 50%;
+      -moz-border-radius: 50%;
+      -webkit-border-radius: 50%; }
+    .content p {
+      text-align: center; }
 
   .content:active #acsess {
     visibility: visible;
     background: yellow; }
+
+  .about {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    border-bottom: 1px solid #2a2a2a; }
 
   .left {
     float: left; }
@@ -293,7 +309,7 @@ footer p {
       font-size: 4em;
       text-align: center; }
     #main h2 {
-      font-size: 1.4em; }
+      font-size: 2em; }
     #main p {
       font-size: 1.3em; }
     #main #menu {
@@ -342,7 +358,12 @@ footer p {
     float: left; }
     .content img {
       display: block;
-      width: 100%; }
+      width: 60%;
+      height: 60%;
+      margin: 0 auto;
+      border-radius: 50%;
+      -moz-border-radius: 50%;
+      -webkit-border-radius: 50%; }
     .content article {
       visibility: hidden; }
 
@@ -352,6 +373,12 @@ footer p {
   .content:active #acsess {
     visibility: visible;
     background: yellow; }
+
+  .about {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    border-bottom: 1px solid #2a2a2a; }
 
   .left {
     float: left; }
