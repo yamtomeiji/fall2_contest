@@ -1,1 +1,27 @@
-_music.scss
+#main {
+	margin: 0;
+	@include device;
+
+	.content {
+		@if ($type == ip){
+			width: 100%;
+			margin: 0 auto;
+			float: none;	
+		}	
+
+		@if ($type == tab){
+			width: 100%;
+			margin: 0 auto;
+			
+		}
+
+		@if ($type == pc){
+			width: 100%;
+			margin: 0 auto;
+		}
+	}
+
+	table {
+
+	} 
+}

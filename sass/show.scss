@@ -9,9 +9,6 @@ $desktop: "only screen and (min-width: 1170px)";
 @import "mixin";
 @import "common";
 
-@include header($type);
-@include footer($type);
-
 @media #{$smart}{
 	$type:ip;
 	@import "works";
