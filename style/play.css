@@ -162,9 +162,9 @@ input, select {
       width: 100%;
       margin: 0 auto;
       float: none; }
-    #main img {
-      width: 60%;
-      margin: 0 auto; } }
+      #main .content img {
+        width: 100%;
+        margin: 0 auto; } }
 @media only screen and (min-width: 481px) and (max-width: 1169px) {
   html {
     max-width: 1200px;
@@ -242,9 +242,9 @@ input, select {
     #main .content {
       width: 100%;
       margin: 0 auto; }
-    #main img {
-      width: 60%;
-      margin: 0 auto; } }
+      #main .content img {
+        width: 60%;
+        margin: 0 auto; } }
 @media only screen and (min-width: 1170px) {
   html {
     max-width: 1200px;
@@ -322,8 +322,8 @@ input, select {
     #main .content {
       width: 100%;
       margin: 0 auto; }
-    #main img {
-      width: 60%;
-      margin: 0 auto; } }
+      #main .content img {
+        width: 60%;
+        margin: 0 auto; } }
 
 /*# sourceMappingURL=play.css.map */
