@@ -40,3 +40,69 @@
 		background: #fafafa;
 	}
 }
+
+@mixin common($type){
+	html {
+		max-width: 1200px;
+		margin: 0 auto;
+		background: #ffda66;
+
+		h1 {
+			font-family: Verdana, "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+		}
+		p {
+			font-family: "Times New Roman", "游明朝", YuMincho, "Hiragino Mincho ProN", Meiryo, serif;
+		}
+	}
+	#wrap {
+		width: 100%;
+		margin: 0 auto;
+
+	}
+
+/* header */
+	header {
+		@include device($type);
+	
+		p, h1 {
+			padding-top: 1%;
+			text-align: center;
+		}
+		img {
+			display: block;
+			width: 100%;
+		}
+	}
+
+/* footer */
+	footer {
+		@include device($type);
+	
+		#sns {
+			width: 60%;
+			margin: 0 auto;
+			.sns {
+				width: 100%;
+				margin: 0 auto;
+			}
+			img {
+				display: block;
+				float: left;
+				width: 10%;
+				margin:0 auto;
+			}
+		}
+		#link {
+			display: block;
+			width: 30%;
+			margin: 0 auto;
+			img {
+				width: 20%;
+				margin: 0 auto;
+			}
+		}
+		p {
+			text-align: right;
+		}
+	}
+}

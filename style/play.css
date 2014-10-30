@@ -1,0 +1,329 @@
+@charset "UTF-8";
+/*
+html5doctor.com Reset Stylesheet
+v1.4.1
+2010-03-01
+Author: Richard Clark - http://richclarkdesign.com
+*/
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+body {
+  line-height: 1; }
+
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary {
+  display: block; }
+
+nav ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none; }
+
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold; }
+
+del {
+  text-decoration: line-through; }
+
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted #000;
+  cursor: help; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0; }
+
+input, select {
+  vertical-align: middle; }
+
+@media only screen and (max-width: 480px) {
+  html {
+    max-width: 1200px;
+    margin: 0 auto;
+    background: #ffda66; }
+    html h1 {
+      font-family: Verdana, "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif; }
+    html p {
+      font-family: "Times New Roman", "游明朝", YuMincho, "Hiragino Mincho ProN", Meiryo, serif; }
+
+  #wrap {
+    width: 100%;
+    margin: 0 auto; }
+
+  /* header */
+  header {
+    background: #ffda66; }
+    header h1 {
+      font-size: 2.5em;
+      text-align: center; }
+    header h2 {
+      font-size: 1.4em; }
+    header p {
+      font-size: 1em; }
+    header p, header h1 {
+      padding-top: 1%;
+      text-align: center; }
+    header img {
+      display: block;
+      width: 100%; }
+
+  /* footer */
+  footer {
+    background: #ffda66; }
+    footer h1 {
+      font-size: 2.5em;
+      text-align: center; }
+    footer h2 {
+      font-size: 1.4em; }
+    footer p {
+      font-size: 1em; }
+    footer #sns {
+      width: 60%;
+      margin: 0 auto; }
+      footer #sns .sns {
+        width: 100%;
+        margin: 0 auto; }
+      footer #sns img {
+        display: block;
+        float: left;
+        width: 10%;
+        margin: 0 auto; }
+    footer #link {
+      display: block;
+      width: 30%;
+      margin: 0 auto; }
+      footer #link img {
+        width: 20%;
+        margin: 0 auto; }
+    footer p {
+      text-align: right; }
+
+  /* main */
+  #main {
+    width: 100%;
+    margin: 0;
+    background: #ffda66; }
+    #main h1 {
+      font-size: 2.5em;
+      text-align: center; }
+    #main h2 {
+      font-size: 1.4em; }
+    #main p {
+      font-size: 1em; }
+    #main .content {
+      width: 100%;
+      margin: 0 auto;
+      float: none; }
+    #main img {
+      width: 60%;
+      margin: 0 auto; } }
+@media only screen and (min-width: 481px) and (max-width: 1169px) {
+  html {
+    max-width: 1200px;
+    margin: 0 auto;
+    background: #ffda66; }
+    html h1 {
+      font-family: Verdana, "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif; }
+    html p {
+      font-family: "Times New Roman", "游明朝", YuMincho, "Hiragino Mincho ProN", Meiryo, serif; }
+
+  #wrap {
+    width: 100%;
+    margin: 0 auto; }
+
+  /* header */
+  header {
+    background: #efefef; }
+    header h1 {
+      font-size: 3em;
+      text-align: center; }
+    header h2 {
+      font-size: 1.4em; }
+    header p {
+      font-size: 1.3em; }
+    header p, header h1 {
+      padding-top: 1%;
+      text-align: center; }
+    header img {
+      display: block;
+      width: 100%; }
+
+  /* footer */
+  footer {
+    background: #efefef; }
+    footer h1 {
+      font-size: 3em;
+      text-align: center; }
+    footer h2 {
+      font-size: 1.4em; }
+    footer p {
+      font-size: 1.3em; }
+    footer #sns {
+      width: 60%;
+      margin: 0 auto; }
+      footer #sns .sns {
+        width: 100%;
+        margin: 0 auto; }
+      footer #sns img {
+        display: block;
+        float: left;
+        width: 10%;
+        margin: 0 auto; }
+    footer #link {
+      display: block;
+      width: 30%;
+      margin: 0 auto; }
+      footer #link img {
+        width: 20%;
+        margin: 0 auto; }
+    footer p {
+      text-align: right; }
+
+  /* main */
+  #main {
+    width: 100%;
+    margin: 0;
+    background: #efefef; }
+    #main h1 {
+      font-size: 3em;
+      text-align: center; }
+    #main h2 {
+      font-size: 1.4em; }
+    #main p {
+      font-size: 1.3em; }
+    #main .content {
+      width: 100%;
+      margin: 0 auto; }
+    #main img {
+      width: 60%;
+      margin: 0 auto; } }
+@media only screen and (min-width: 1170px) {
+  html {
+    max-width: 1200px;
+    margin: 0 auto;
+    background: #ffda66; }
+    html h1 {
+      font-family: Verdana, "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif; }
+    html p {
+      font-family: "Times New Roman", "游明朝", YuMincho, "Hiragino Mincho ProN", Meiryo, serif; }
+
+  #wrap {
+    width: 100%;
+    margin: 0 auto; }
+
+  /* header */
+  header {
+    background: #fafafa; }
+    header h1 {
+      font-size: 4em;
+      text-align: center; }
+    header h2 {
+      font-size: 2em; }
+    header p {
+      font-size: 1.3em; }
+    header p, header h1 {
+      padding-top: 1%;
+      text-align: center; }
+    header img {
+      display: block;
+      width: 100%; }
+
+  /* footer */
+  footer {
+    background: #fafafa; }
+    footer h1 {
+      font-size: 4em;
+      text-align: center; }
+    footer h2 {
+      font-size: 2em; }
+    footer p {
+      font-size: 1.3em; }
+    footer #sns {
+      width: 60%;
+      margin: 0 auto; }
+      footer #sns .sns {
+        width: 100%;
+        margin: 0 auto; }
+      footer #sns img {
+        display: block;
+        float: left;
+        width: 10%;
+        margin: 0 auto; }
+    footer #link {
+      display: block;
+      width: 30%;
+      margin: 0 auto; }
+      footer #link img {
+        width: 20%;
+        margin: 0 auto; }
+    footer p {
+      text-align: right; }
+
+  /* main */
+  #main {
+    width: 100%;
+    margin: 0;
+    background: #fafafa; }
+    #main h1 {
+      font-size: 4em;
+      text-align: center; }
+    #main h2 {
+      font-size: 2em; }
+    #main p {
+      font-size: 1.3em; }
+    #main .content {
+      width: 100%;
+      margin: 0 auto; }
+    #main img {
+      width: 60%;
+      margin: 0 auto; } }
+
+/*# sourceMappingURL=play.css.map */
