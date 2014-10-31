@@ -100,7 +100,7 @@ input, select {
 
   /* header */
   header {
-    background: #ffda66; }
+    background: #facc66; }
     header h1 {
       font-size: 3.5em;
       text-align: center; }
@@ -117,7 +117,7 @@ input, select {
 
   /* footer */
   footer {
-    background: #ffda66; }
+    background: #facc66; }
     footer h1 {
       font-size: 3.5em;
       text-align: center; }
@@ -129,18 +129,21 @@ input, select {
       width: 60%;
       margin: 0 auto; }
       footer #sns .sns {
-        width: 100%;
-        margin: 0 auto; }
+        display: block;
+        width: 33%;
+        margin: 0 auto;
+        float: left; }
       footer #sns img {
         display: block;
-        float: left;
-        width: 10%;
+        width: 50%;
         margin: 0 auto; }
     footer #link {
-      display: block;
-      width: 30%;
-      margin: 0 auto; }
+      margin: 0 auto;
+      width: 60%; }
+      footer #link h2 {
+        text-align: center; }
       footer #link img {
+        display: block;
         width: 20%;
         margin: 0 auto; }
     footer p {
@@ -150,7 +153,7 @@ input, select {
   #main {
     width: 100%;
     margin: 0;
-    background: #ffda66; }
+    background: #facc66; }
     #main h1 {
       font-size: 3.5em;
       text-align: center; }
@@ -164,20 +167,24 @@ input, select {
       #main #menu img {
         width: 40%;
         margin: 0 auto; }
-    #main #works #up {
-      width: 80%;
-      margin: 0 auto; }
-      #main #works #up img {
-        border-bottom: 1px solid white; }
-      #main #works #up .line {
-        border-right: 1px solid white; }
-    #main #works #down {
-      width: 80%;
-      margin: 0 auto; }
-      #main #works #down img {
-        border-top: 2px solid white; }
-      #main #works #down .line {
-        border-right: 2px solid white; }
+    #main #works {
+      width: 100%; }
+      #main #works #up {
+        display: block;
+        width: 80%;
+        margin: 0 auto; }
+        #main #works #up img {
+          border-bottom: 1px solid white; }
+        #main #works #up .line {
+          border-right: 1px solid white; }
+      #main #works #down {
+        display: block;
+        width: 80%;
+        margin: 0 auto; }
+        #main #works #down img {
+          border-top: 2px solid white; }
+        #main #works #down .line {
+          border-right: 2px solid white; }
     #main #access {
       width: 80%;
       margin: 0 auto; }
@@ -186,8 +193,8 @@ input, select {
         margin: 0 auto; }
         #main #access .head img {
           float: none;
-          width: 100%;
-          height: 100%;
+          width: 80%;
+          height: 80%;
           border-radius: 50%;
           -moz-border-radius: 50%;
           -webkit-border-radius: 50%; }
@@ -199,6 +206,7 @@ input, select {
       visibility: hidden; }
 
   .content {
+    display: block;
     width: 50%;
     margin: 0 auto;
     float: left;
@@ -231,7 +239,7 @@ input, select {
 
   .clear {
     clear: both; } }
-@media only screen and (min-width: 481px) and (max-width: 1169px) {
+@media only screen and (min-width: 481px) and (max-width: 899px) {
   html {
     max-width: 1200px;
     margin: 0 auto;
@@ -247,7 +255,7 @@ input, select {
 
   /* header */
   header {
-    background: #efa1a1; }
+    background: #feca78; }
     header h1 {
       font-size: 3em;
       text-align: center; }
@@ -264,7 +272,7 @@ input, select {
 
   /* footer */
   footer {
-    background: #efa1a1; }
+    background: #feca78; }
     footer h1 {
       font-size: 3em;
       text-align: center; }
@@ -276,18 +284,20 @@ input, select {
       width: 60%;
       margin: 0 auto; }
       footer #sns .sns {
-        width: 100%;
-        margin: 0 auto; }
+        display: block;
+        width: 33%;
+        margin: 0 auto;
+        float: left; }
       footer #sns img {
         display: block;
-        float: left;
-        width: 10%;
         margin: 0 auto; }
     footer #link {
-      display: block;
-      width: 30%;
-      margin: 0 auto; }
+      margin: 0 auto;
+      width: 40%; }
+      footer #link h2 {
+        text-align: center; }
       footer #link img {
+        display: block;
         width: 20%;
         margin: 0 auto; }
     footer p {
@@ -297,7 +307,7 @@ input, select {
   #main {
     width: 100%;
     margin: 0;
-    background: #efa1a1; }
+    background: #feca78; }
     #main h1 {
       font-size: 3em;
       text-align: center; }
@@ -311,20 +321,24 @@ input, select {
       #main #menu img {
         width: 40%;
         margin: 0 auto; }
-    #main #works #up {
-      width: 80%;
-      margin: 0 auto; }
-      #main #works #up img {
-        border-bottom: 1px solid white; }
-      #main #works #up .line {
-        border-right: 1px solid white; }
-    #main #works #down {
-      width: 80%;
-      margin: 0 auto; }
-      #main #works #down img {
-        border-top: 2px solid white; }
-      #main #works #down .line {
-        border-right: 2px solid white; }
+    #main #works {
+      width: 100%; }
+      #main #works #up {
+        display: block;
+        width: 80%;
+        margin: 0 auto; }
+        #main #works #up img {
+          border-bottom: 1px solid white; }
+        #main #works #up .line {
+          border-right: 1px solid white; }
+      #main #works #down {
+        display: block;
+        width: 80%;
+        margin: 0 auto; }
+        #main #works #down img {
+          border-top: 2px solid white; }
+        #main #works #down .line {
+          border-right: 2px solid white; }
     #main #access {
       width: 80%;
       margin: 0 auto; }
@@ -333,8 +347,8 @@ input, select {
         margin: 0 auto; }
         #main #access .head img {
           float: none;
-          width: 100%;
-          height: 100%;
+          width: 80%;
+          height: 80%;
           border-radius: 50%;
           -moz-border-radius: 50%;
           -webkit-border-radius: 50%; }
@@ -346,6 +360,7 @@ input, select {
       visibility: hidden; }
 
   .content {
+    display: block;
     width: 50%;
     margin: 0 auto;
     float: left; }
@@ -378,7 +393,7 @@ input, select {
 
   .clear {
     clear: both; } }
-@media only screen and (min-width: 1170px) {
+@media only screen and (min-width: 900px) {
   html {
     max-width: 1200px;
     margin: 0 auto;
@@ -394,7 +409,7 @@ input, select {
 
   /* header */
   header {
-    background: #efe1da; }
+    background: #fee199; }
     header h1 {
       font-size: 2.5em;
       text-align: center; }
@@ -411,7 +426,7 @@ input, select {
 
   /* footer */
   footer {
-    background: #efe1da; }
+    background: #fee199; }
     footer h1 {
       font-size: 2.5em;
       text-align: center; }
@@ -423,18 +438,20 @@ input, select {
       width: 60%;
       margin: 0 auto; }
       footer #sns .sns {
-        width: 100%;
-        margin: 0 auto; }
+        display: block;
+        width: 33%;
+        margin: 0 auto;
+        float: left; }
       footer #sns img {
         display: block;
-        float: left;
-        width: 10%;
         margin: 0 auto; }
     footer #link {
-      display: block;
-      width: 30%;
-      margin: 0 auto; }
+      margin: 0 auto;
+      width: 40%; }
+      footer #link h2 {
+        text-align: center; }
       footer #link img {
+        display: block;
         width: 20%;
         margin: 0 auto; }
     footer p {
@@ -444,7 +461,7 @@ input, select {
   #main {
     width: 100%;
     margin: 0;
-    background: #efe1da; }
+    background: #fee199; }
     #main h1 {
       font-size: 2.5em;
       text-align: center; }
@@ -458,20 +475,24 @@ input, select {
       #main #menu img {
         width: 40%;
         margin: 0 auto; }
-    #main #works #up {
-      width: 80%;
-      margin: 0 auto; }
-      #main #works #up img {
-        border-bottom: 1px solid white; }
-      #main #works #up .line {
-        border-right: 1px solid white; }
-    #main #works #down {
-      width: 80%;
-      margin: 0 auto; }
-      #main #works #down img {
-        border-top: 2px solid white; }
-      #main #works #down .line {
-        border-right: 2px solid white; }
+    #main #works {
+      width: 100%; }
+      #main #works #up {
+        display: block;
+        width: 80%;
+        margin: 0 auto; }
+        #main #works #up img {
+          border-bottom: 1px solid white; }
+        #main #works #up .line {
+          border-right: 1px solid white; }
+      #main #works #down {
+        display: block;
+        width: 80%;
+        margin: 0 auto; }
+        #main #works #down img {
+          border-top: 2px solid white; }
+        #main #works #down .line {
+          border-right: 2px solid white; }
     #main #access {
       width: 80%;
       margin: 0 auto; }
@@ -480,8 +501,8 @@ input, select {
         margin: 0 auto; }
         #main #access .head img {
           float: none;
-          width: 100%;
-          height: 100%;
+          width: 80%;
+          height: 80%;
           border-radius: 50%;
           -moz-border-radius: 50%;
           -webkit-border-radius: 50%; }
@@ -493,12 +514,13 @@ input, select {
       visibility: hidden; }
 
   .content {
+    display: block;
     width: 50%;
     margin: 0 auto;
     float: left; }
     .content img {
       display: block;
-      width: 60%;
+      width: 100%;
       height: 60%;
       margin: 0 auto;
       /*border-radius: 50%;

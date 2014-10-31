@@ -2,8 +2,8 @@
 
 $type:ip tab pc;
 $smart: "only screen and (max-width: 480px)";
-$tablet: "only screen and (min-width: 481px) and (max-width: 1169px)";
-$desktop: "only screen and (min-width: 1170px)"; 
+$tablet: "only screen and (min-width: 481px) and (max-width: 899px)";
+$desktop: "only screen and (min-width: 900px)"; 
 
 @import "reset";
 @import "mixin";
