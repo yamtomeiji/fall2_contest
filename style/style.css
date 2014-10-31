@@ -168,23 +168,16 @@ input, select {
         width: 40%;
         margin: 0 auto; }
     #main #works {
-      width: 100%; }
+      width: 80%;
+      margin: 0 auto; }
       #main #works #up {
         display: block;
-        width: 80%;
+        width: 100%;
         margin: 0 auto; }
-        #main #works #up img {
-          border-bottom: 1px solid white; }
-        #main #works #up .line {
-          border-right: 1px solid white; }
       #main #works #down {
         display: block;
-        width: 80%;
+        width: 100%;
         margin: 0 auto; }
-        #main #works #down img {
-          border-top: 2px solid white; }
-        #main #works #down .line {
-          border-right: 2px solid white; }
     #main #access {
       width: 80%;
       margin: 0 auto; }
@@ -322,23 +315,16 @@ input, select {
         width: 40%;
         margin: 0 auto; }
     #main #works {
-      width: 100%; }
+      width: 80%;
+      margin: 0 auto; }
       #main #works #up {
         display: block;
-        width: 80%;
+        width: 100%;
         margin: 0 auto; }
-        #main #works #up img {
-          border-bottom: 1px solid white; }
-        #main #works #up .line {
-          border-right: 1px solid white; }
       #main #works #down {
         display: block;
-        width: 80%;
+        width: 100%;
         margin: 0 auto; }
-        #main #works #down img {
-          border-top: 2px solid white; }
-        #main #works #down .line {
-          border-right: 2px solid white; }
     #main #access {
       width: 80%;
       margin: 0 auto; }
@@ -476,23 +462,16 @@ input, select {
         width: 40%;
         margin: 0 auto; }
     #main #works {
-      width: 100%; }
+      width: 80%;
+      margin: 0 auto; }
       #main #works #up {
         display: block;
-        width: 80%;
+        width: 100%;
         margin: 0 auto; }
-        #main #works #up img {
-          border-bottom: 1px solid white; }
-        #main #works #up .line {
-          border-right: 1px solid white; }
       #main #works #down {
         display: block;
-        width: 80%;
+        width: 100%;
         margin: 0 auto; }
-        #main #works #down img {
-          border-top: 2px solid white; }
-        #main #works #down .line {
-          border-right: 2px solid white; }
     #main #access {
       width: 80%;
       margin: 0 auto; }

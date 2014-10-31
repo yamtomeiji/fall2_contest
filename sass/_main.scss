@@ -20,31 +20,18 @@
 	}
 
 	#works {
-		width: 100%;
+		width: 80%;
+		margin: 0 auto;
 		#up {
 			display: block;
-			width: 80%;
+			width: 100%;
 			margin: 0 auto;
-
-			img {
-				border-bottom: 1px solid white;
-			}
-			.line {
-				border-right: 1px solid white; 
-			}
 		}
 
 		#down {
 			display: block;
-			width: 80%;
+			width: 100%;
 			margin: 0 auto;
-
-			img {
-				border-top: 2px solid white;
-			}
-			.line {
-				border-right: 2px solid white;
-			}
 		}
 	}
 
