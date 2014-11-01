@@ -183,15 +183,19 @@ input, select {
       font-size: 1.1em;
       color: #303030; }
     #main .content {
-      width: 100%;
-      margin: 0 auto; }
+      width: 98%;
+      margin: 0 auto;
+      float: none;
+      background: rgba(255, 255, 255, 0.6);
+      border: 2px solid #c8c8c8; }
       #main .content img {
         display: block;
-        width: 100%;
-        margin: 0 auto; }
-      #main .content iframe {
-        width: 100%;
-        margin: 0; } }
+        width: 80%;
+        margin: 2% auto; }
+      #main .content p {
+        font-size: 1.4em;
+        text-align: center;
+        margin: 0 3%; } }
 @media only screen and (min-width: 481px) and (max-width: 899px) {
   html {
     max-width: 1200px;
@@ -290,17 +294,21 @@ input, select {
       font-size: 1.2em;
       color: #303030; }
     #main .content {
-      width: 100%;
-      margin: 0 auto; }
+      display: block;
+      float: left;
+      width: 49%;
+      margin: 0 auto;
+      background: rgba(255, 255, 255, 0.6);
+      border: 2px solid #c8c8c8; }
       #main .content img {
         display: block;
         width: 80%;
-        margin: 0 auto; }
-      #main .content iframe {
-        display: block;
-        width: 80%;
-        margin: 0 auto; } }
-@media only screen and (min-width: 899px) {
+        margin: 2% auto; }
+      #main .content p {
+        font-size: 1.4em;
+        text-align: center;
+        margin: 0 3%; } }
+@media only screen and (min-width: 900px) {
   html {
     max-width: 1200px;
     margin: 0 auto;
@@ -398,15 +406,23 @@ input, select {
       font-size: 1.35em;
       color: #303030; }
     #main .content {
-      width: 100%;
-      margin: 0 auto; }
+      display: block;
+      width: 32.9%;
+      float: left;
+      margin: 0 auto;
+      background: rgba(255, 255, 255, 0.6);
+      border: 2px solid #c8c8c8; }
       #main .content img {
         display: block;
-        width: 70%;
-        margin: 0 auto; }
-      #main .content iframe {
-        display: block;
-        width: 70%;
-        margin: 0 auto; } }
+        width: 80%;
+        margin: 2% auto; }
+      #main .content p {
+        font-size: 1.4em;
+        text-align: center;
+        margin: 0 3%; }
+      #main .content .clear {
+        clear: none; }
+      #main .content .clear_t {
+        clear: both; } }
 
-/*# sourceMappingURL=play.css.map */
+/*# sourceMappingURL=show.css.map */

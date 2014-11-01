@@ -88,7 +88,7 @@ input, select {
   html {
     max-width: 1200px;
     margin: 0 auto;
-    background: #ffda66; }
+    background: #fef8de; }
     html h1 {
       font-family: Verdana, "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif; }
     html p {
@@ -102,12 +102,18 @@ input, select {
   header {
     background: #facc66; }
     header h1 {
-      font-size: 3.5em;
-      text-align: center; }
+      font-size: 1.3em;
+      text-align: center;
+      color: #303030; }
     header h2 {
-      font-size: 1.4em; }
+      font-size: 1.4em;
+      color: #303030; }
     header p {
-      font-size: 1em; }
+      font-size: 1em;
+      color: #303030; }
+    header article {
+      font-size: 1.1em;
+      color: #303030; }
     header p, header h1 {
       padding-top: 1%;
       text-align: center; }
@@ -117,17 +123,15 @@ input, select {
 
   /* footer */
   footer {
-    background: #facc66; }
-    footer h1 {
-      font-size: 3.5em;
-      text-align: center; }
-    footer h2 {
-      font-size: 1.4em; }
-    footer p {
-      font-size: 1em; }
+    width: 100%;
+    margin: 0 auto;
+    padding: 3% 0; }
     footer #sns {
-      width: 60%;
-      margin: 0 auto; }
+      width: 70%;
+      background: rgba(150, 150, 150, 0.7);
+      margin: 0 auto;
+      padding: 3% 0;
+      border: solid 2px rgba(250, 250, 250, 0.5); }
       footer #sns .sns {
         display: block;
         width: 33%;
@@ -137,11 +141,19 @@ input, select {
         display: block;
         width: 50%;
         margin: 0 auto; }
+      footer #sns h2 {
+        font-size: 1em;
+        text-align: center;
+        color: white; }
     footer #link {
-      margin: 0 auto;
+      margin: 2% auto;
       width: 60%; }
       footer #link h2 {
-        text-align: center; }
+        text-align: center;
+        margin-top: 3%; }
+      footer #link a {
+        text-decoration: none;
+        color: #303030; }
       footer #link img {
         display: block;
         width: 20%;
@@ -155,20 +167,38 @@ input, select {
     margin: 0;
     background: #facc66; }
     #main h1 {
-      font-size: 3.5em;
-      text-align: center; }
+      font-size: 1.3em;
+      text-align: center;
+      color: #303030; }
     #main h2 {
-      font-size: 1.4em; }
+      font-size: 1.4em;
+      color: #303030; }
     #main p {
-      font-size: 1em; }
+      font-size: 1em;
+      color: #303030; }
+    #main article {
+      font-size: 1.1em;
+      color: #303030; }
     #main #menu {
-      width: 80%;
+      background: rgba(250, 250, 250, 0.1);
+      width: 90%;
       margin: 0 auto; }
-      #main #menu img {
-        width: 40%;
-        margin: 0 auto; }
+      #main #menu .images {
+        width: 100%;
+        margin: 0;
+        float: none; }
+        #main #menu .images img {
+          width: 100%; }
+      #main #menu .dis {
+        width: 100%;
+        margin: 0; }
+        #main #menu .dis img {
+          width: 100%;
+          margin: 0; }
+        #main #menu .dis article {
+          width: 100%; }
     #main #works {
-      width: 80%;
+      width: 90%;
       margin: 0 auto; }
       #main #works #up {
         display: block;
@@ -179,31 +209,40 @@ input, select {
         width: 100%;
         margin: 0 auto; }
     #main #access {
-      width: 80%;
+      width: 90%;
       margin: 0 auto; }
       #main #access .head {
-        width: 40%;
-        margin: 0 auto; }
-        #main #access .head img {
+        width: 100%;
+        text-align: center; }
+        #main #access .head a {
+          text-decoration: none; }
+      #main #access .maps {
+        width: 100%; }
+        #main #access .maps img {
+          display: block;
+          width: 100%;
           float: none;
-          width: 80%;
-          height: 80%;
-          border-radius: 50%;
-          -moz-border-radius: 50%;
-          -webkit-border-radius: 50%; }
-      #main #access img {
-        width: 40%; }
-    #main .main_content {
-      width: 100%;
-      margin: 0 auto;
-      visibility: hidden; }
+          margin-bottom: 5%; }
+        #main #access .maps article {
+          width: 100%; }
+    #main .arti {
+      width: 100%; }
+      #main .arti img {
+        width: 100%;
+        float: none; }
+      #main .arti article {
+        width: 100%;
+        float: none;
+        font-size: 1.18em;
+        margin: 3% auto; }
 
   .content {
+    background: rgba(240, 240, 240, 0.1);
     display: block;
-    width: 50%;
+    width: 48%;
     margin: 0 auto;
-    float: left;
-    width: 50%;
+    border: 2px solid rgba(255, 255, 255, 0.6);
+    width: 80%;
     margin: 0 auto; }
     .content img {
       display: block;
@@ -214,15 +253,10 @@ input, select {
       -moz-border-radius: 50%;
       -webkit-border-radius: 50%; }
 
-  .content:active #acsess {
-    visibility: visible;
-    background: yellow; }
-
   .about {
-    width: 100%;
-    margin: 0 auto;
-    text-align: center;
-    border-bottom: 1px solid #2a2a2a; }
+    width: 60%;
+    margin: 0.5% auto;
+    text-align: center; }
 
   .left {
     float: left; }
@@ -236,7 +270,7 @@ input, select {
   html {
     max-width: 1200px;
     margin: 0 auto;
-    background: #ffda66; }
+    background: #fef8de; }
     html h1 {
       font-family: Verdana, "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif; }
     html p {
@@ -248,14 +282,20 @@ input, select {
 
   /* header */
   header {
-    background: #feca78; }
+    background: #fae8aa; }
     header h1 {
-      font-size: 3em;
-      text-align: center; }
+      font-size: 1.5em;
+      text-align: center;
+      color: #303030; }
     header h2 {
-      font-size: 1.4em; }
+      font-size: 1.4em;
+      color: #303030; }
     header p {
-      font-size: 1.3em; }
+      font-size: 1.3em;
+      color: #303030; }
+    header article {
+      font-size: 1.2em;
+      color: #303030; }
     header p, header h1 {
       padding-top: 1%;
       text-align: center; }
@@ -265,17 +305,15 @@ input, select {
 
   /* footer */
   footer {
-    background: #feca78; }
-    footer h1 {
-      font-size: 3em;
-      text-align: center; }
-    footer h2 {
-      font-size: 1.4em; }
-    footer p {
-      font-size: 1.3em; }
+    width: 100%;
+    margin: 0 auto;
+    padding: 3% 0; }
     footer #sns {
-      width: 60%;
-      margin: 0 auto; }
+      width: 70%;
+      background: rgba(150, 150, 150, 0.7);
+      margin: 0 auto;
+      padding: 3% 0;
+      border: solid 2px rgba(250, 250, 250, 0.5); }
       footer #sns .sns {
         display: block;
         width: 33%;
@@ -284,11 +322,19 @@ input, select {
       footer #sns img {
         display: block;
         margin: 0 auto; }
+      footer #sns h2 {
+        font-size: 1.3em;
+        text-align: center;
+        color: white; }
     footer #link {
-      margin: 0 auto;
+      margin: 2% auto;
       width: 40%; }
       footer #link h2 {
-        text-align: center; }
+        text-align: center;
+        margin-top: 3%; }
+      footer #link a {
+        text-decoration: none;
+        color: #303030; }
       footer #link img {
         display: block;
         width: 20%;
@@ -300,22 +346,44 @@ input, select {
   #main {
     width: 100%;
     margin: 0;
-    background: #feca78; }
+    background: #fae8aa; }
     #main h1 {
-      font-size: 3em;
-      text-align: center; }
+      font-size: 1.5em;
+      text-align: center;
+      color: #303030; }
     #main h2 {
-      font-size: 1.4em; }
+      font-size: 1.4em;
+      color: #303030; }
     #main p {
-      font-size: 1.3em; }
+      font-size: 1.3em;
+      color: #303030; }
+    #main article {
+      font-size: 1.2em;
+      color: #303030; }
     #main #menu {
-      width: 80%;
+      background: rgba(250, 250, 250, 0.1);
+      width: 90%;
       margin: 0 auto; }
-      #main #menu img {
-        width: 40%;
+      #main #menu .images {
+        width: 100%;
+        margin: 0;
+        float: none; }
+        #main #menu .images img {
+          display: block;
+          width: 70%;
+          margin: 0 auto; }
+      #main #menu .dis {
+        width: 70%;
         margin: 0 auto; }
+        #main #menu .dis img {
+          width: 50%;
+          float: left; }
+        #main #menu .dis article {
+          width: 46%;
+          float: left;
+          margin: 6% 0 0 4%; }
     #main #works {
-      width: 80%;
+      width: 90%;
       margin: 0 auto; }
       #main #works #up {
         display: block;
@@ -326,29 +394,40 @@ input, select {
         width: 100%;
         margin: 0 auto; }
     #main #access {
-      width: 80%;
+      width: 90%;
       margin: 0 auto; }
       #main #access .head {
-        width: 40%;
-        margin: 0 auto; }
-        #main #access .head img {
-          float: none;
-          width: 80%;
-          height: 80%;
-          border-radius: 50%;
-          -moz-border-radius: 50%;
-          -webkit-border-radius: 50%; }
-      #main #access img {
-        width: 40%; }
-    #main .main_content {
-      width: 100%;
-      margin: 0 auto;
-      visibility: hidden; }
+        width: 100%;
+        text-align: center; }
+        #main #access .head a {
+          text-decoration: none; }
+      #main #access .maps {
+        width: 100%; }
+        #main #access .maps img {
+          display: block;
+          width: 60%;
+          float: left;
+          margin-bottom: 5%; }
+        #main #access .maps article {
+          width: 30%;
+          float: left;
+          margin: 5%; }
+    #main .arti {
+      width: 100%; }
+      #main .arti img {
+        width: 50%;
+        float: left; }
+      #main .arti article {
+        width: 46%;
+        float: left;
+        margin: 6% 0 0 4%; }
 
   .content {
+    background: rgba(240, 240, 240, 0.1);
     display: block;
-    width: 50%;
+    width: 48%;
     margin: 0 auto;
+    border: 2px solid rgba(255, 255, 255, 0.6);
     float: left; }
     .content img {
       display: block;
@@ -361,15 +440,10 @@ input, select {
     .content p {
       text-align: center; }
 
-  .content:active #acsess {
-    visibility: visible;
-    background: yellow; }
-
   .about {
-    width: 100%;
-    margin: 0 auto;
-    text-align: center;
-    border-bottom: 1px solid #2a2a2a; }
+    width: 60%;
+    margin: 0.5% auto;
+    text-align: center; }
 
   .left {
     float: left; }
@@ -383,7 +457,7 @@ input, select {
   html {
     max-width: 1200px;
     margin: 0 auto;
-    background: #ffda66; }
+    background: #fef8de; }
     html h1 {
       font-family: Verdana, "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif; }
     html p {
@@ -397,12 +471,18 @@ input, select {
   header {
     background: #fee199; }
     header h1 {
-      font-size: 2.5em;
-      text-align: center; }
+      font-size: 1.7em;
+      text-align: center;
+      color: #303030; }
     header h2 {
-      font-size: 2em; }
+      font-size: 2em;
+      color: #303030; }
     header p {
-      font-size: 1.3em; }
+      font-size: 1.3em;
+      color: #303030; }
+    header article {
+      font-size: 1.35em;
+      color: #303030; }
     header p, header h1 {
       padding-top: 1%;
       text-align: center; }
@@ -412,17 +492,15 @@ input, select {
 
   /* footer */
   footer {
-    background: #fee199; }
-    footer h1 {
-      font-size: 2.5em;
-      text-align: center; }
-    footer h2 {
-      font-size: 2em; }
-    footer p {
-      font-size: 1.3em; }
+    width: 100%;
+    margin: 0 auto;
+    padding: 3% 0; }
     footer #sns {
-      width: 60%;
-      margin: 0 auto; }
+      width: 70%;
+      background: rgba(150, 150, 150, 0.7);
+      margin: 0 auto;
+      padding: 3% 0;
+      border: solid 2px rgba(250, 250, 250, 0.5); }
       footer #sns .sns {
         display: block;
         width: 33%;
@@ -431,11 +509,19 @@ input, select {
       footer #sns img {
         display: block;
         margin: 0 auto; }
+      footer #sns h2 {
+        font-size: 1.3em;
+        text-align: center;
+        color: white; }
     footer #link {
-      margin: 0 auto;
+      margin: 2% auto;
       width: 40%; }
       footer #link h2 {
-        text-align: center; }
+        text-align: center;
+        margin-top: 3%; }
+      footer #link a {
+        text-decoration: none;
+        color: #303030; }
       footer #link img {
         display: block;
         width: 20%;
@@ -449,20 +535,42 @@ input, select {
     margin: 0;
     background: #fee199; }
     #main h1 {
-      font-size: 2.5em;
-      text-align: center; }
+      font-size: 1.7em;
+      text-align: center;
+      color: #303030; }
     #main h2 {
-      font-size: 2em; }
+      font-size: 2em;
+      color: #303030; }
     #main p {
-      font-size: 1.3em; }
+      font-size: 1.3em;
+      color: #303030; }
+    #main article {
+      font-size: 1.35em;
+      color: #303030; }
     #main #menu {
-      width: 80%;
+      background: rgba(250, 250, 250, 0.1);
+      width: 90%;
       margin: 0 auto; }
-      #main #menu img {
-        width: 40%;
+      #main #menu .images {
+        width: 100%;
+        margin: 0;
+        float: none; }
+        #main #menu .images img {
+          display: block;
+          width: 70%;
+          margin: 0 auto; }
+      #main #menu .dis {
+        width: 70%;
         margin: 0 auto; }
+        #main #menu .dis img {
+          width: 50%;
+          float: left; }
+        #main #menu .dis article {
+          width: 46%;
+          float: left;
+          margin: 6% 0 0 4%; }
     #main #works {
-      width: 80%;
+      width: 90%;
       margin: 0 auto; }
       #main #works #up {
         display: block;
@@ -473,29 +581,40 @@ input, select {
         width: 100%;
         margin: 0 auto; }
     #main #access {
-      width: 80%;
+      width: 90%;
       margin: 0 auto; }
       #main #access .head {
-        width: 40%;
-        margin: 0 auto; }
-        #main #access .head img {
-          float: none;
-          width: 80%;
-          height: 80%;
-          border-radius: 50%;
-          -moz-border-radius: 50%;
-          -webkit-border-radius: 50%; }
-      #main #access img {
-        width: 40%; }
-    #main .main_content {
-      width: 100%;
-      margin: 0 auto;
-      visibility: hidden; }
+        width: 100%;
+        text-align: center; }
+        #main #access .head a {
+          text-decoration: none; }
+      #main #access .maps {
+        width: 100%; }
+        #main #access .maps img {
+          display: block;
+          width: 60%;
+          float: left;
+          margin-bottom: 5%; }
+        #main #access .maps article {
+          width: 30%;
+          float: left;
+          margin: 5%; }
+    #main .arti {
+      width: 100%; }
+      #main .arti img {
+        width: 50%;
+        float: left; }
+      #main .arti article {
+        width: 46%;
+        float: left;
+        margin: 6% 0 0 4%; }
 
   .content {
+    background: rgba(240, 240, 240, 0.1);
     display: block;
-    width: 50%;
+    width: 48%;
     margin: 0 auto;
+    border: 2px solid rgba(255, 255, 255, 0.6);
     float: left; }
     .content img {
       display: block;
@@ -505,21 +624,11 @@ input, select {
       /*border-radius: 50%;
       -moz-border-radius: 50%;
       -webkit-border-radius: 50%; */ }
-    .content article {
-      visibility: hidden; }
-
-  .content:hover article {
-    visibility: visible; }
-
-  .content:active #acsess {
-    visibility: visible;
-    background: yellow; }
 
   .about {
-    width: 100%;
-    margin: 0 auto;
-    text-align: center;
-    border-bottom: 1px solid #2a2a2a; }
+    width: 60%;
+    margin: 0.5% auto;
+    text-align: center; }
 
   .left {
     float: left; }

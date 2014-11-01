@@ -4,45 +4,47 @@
 
 #main {
 	width: 100%;
-	margin: 0;
+	margin: 0 auto;
 	@include device($type);
 
 	.content {
+		width: 100%;
+		margin: 0 auto;
 		@if ($type == ip){
-			width: 100%;
-			margin: 0 auto;
-			float: none;
 			img {
+				display: block;
 				width: 100%;
 				margin: 0 auto;
 			}
 			iframe {
 				width: 100%;
+				margin: 0;
 			}
 		}	
 
 		@if ($type == tab){
-			width: 100%;
-			margin: 0 auto;
 			img {
-				width: 60%;
+				display: block;
+				width: 80%;
 				margin: 0 auto;
 			}
 			iframe {
-				width: 40%;
-
+				display: block;
+				width: 80%;
+				margin: 0 auto;
 			}
 		}
 
 		@if ($type == pc){
-			width: 100%;
-			margin: 0 auto;
 			img {
-				width: 60%;
+				display: block;
+				width: 70%;
 				margin: 0 auto;
 			}
 			iframe {
-				width: 40%;
+				display: block;
+				width: 70%;
+				margin: 0 auto;
 			}
 		}
 	}

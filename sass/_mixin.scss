@@ -1,41 +1,62 @@
 @mixin device($type) {
 	@if $type == ip {
 		h1 {
-			font-size: 3.5em;
+			font-size: 1.3em;
 			text-align: center;
+			color: #303030;
 		}
 		h2 {
-			font-size: 1.4em;			
+			font-size: 1.4em;
+			color: #303030;			
 		}
 		p {
 			font-size: 1em;
+			color: #303030;
+		}
+		article{
+			font-size: 1.1em;
+			color: #303030;
 		}
 		background: #facc66;
 
 	}
 	@if $type == tab {
 		h1 {
-			font-size: 3em;
+			font-size: 1.5em;
 			text-align: center;
+			color: #303030;
 		}
 		h2 {
-			font-size: 1.4em;			
+			font-size: 1.4em;
+			color: #303030;			
 		}
 		p {
 			font-size: 1.3em;
+			color: #303030;
 		}
-		background: #feca78;
+		article{
+			font-size: 1.2em;
+			color: #303030;
+		}
+		background: #fae8aa;
 	}
 	@if $type == pc {
 		h1 {
-			font-size: 2.5em;
+			font-size: 1.7em;
 			text-align: center;
+			color: #303030;
 		}
 		h2 {
-			font-size: 2em;			
+			font-size: 2em;
+			color: #303030;			
 		}
 		p {
 			font-size: 1.3em;
+			color: #303030;
+		}
+		article{
+			font-size: 1.35em;
+			color: #303030;
 		}
 		background: #fee199;
 	}
@@ -45,7 +66,7 @@
 	html {
 		max-width: 1200px;
 		margin: 0 auto;
-		background: #ffda66;
+		background: #fef8de;
 
 		h1 {
 			font-family: Verdana, "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
@@ -58,6 +79,10 @@
 		width: 100%;
 		margin: 0 auto;
 
+	}
+
+	.clear {
+		clear:both;
 	}
 
 /* header */
@@ -81,11 +106,17 @@
 
 /* footer */
 	footer {
-		@include device($type);
+		width: 100%;
+		margin: 0 auto;
+		padding: 3% 0;
 	
 		#sns {
-			width: 60%;
+			width: 70%;
+			background: rgba(150,150,150,0.7);
 			margin: 0 auto;
+			padding: 3% 0;
+			border: solid 2px rgba(250,250,250, 0.5);
+
 
 			.sns {
 				display: block;
@@ -99,19 +130,33 @@
 					width: 50%;
 					margin: 0 auto;
 				}
+				h2 {
+					font-size: 1em;
+					text-align: center;
+					color: white;
+				}
 			}@else{
 				img {
 					display: block;
 					margin:0 auto;
 				}
+				h2 {
+					font-size: 1.3em;
+					text-align: center;
+					color: white;
+				}
 			}
 		}
 		#link {
-			margin: 0 auto;
+			margin: 2% auto;
 			h2 {
 				text-align: center;
+				margin-top: 3%;
 			}
-
+			a{
+				text-decoration: none;
+				color: #303030;
+			}
 			@if($type == ip){
 				width: 60%;
 				img{

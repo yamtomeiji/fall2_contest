@@ -35,8 +35,10 @@ html {
 		@include device($type);
 	
 		#sns {
+			background: rgba(255,255,255, 0.3);
 			width: 60%;
-			margin: 0 auto;
+			height: 10%;
+			margin: 5% auto;
 			.sns {
 				width: 100%;
 				margin: 0 auto;
